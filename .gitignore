@@ -1,0 +1,68 @@
+# Editor/OS
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Simulation waveforms, databases, logs, and temporary files
+*.vcd
+*.fst
+*.fsdb
+*.shm/
+*.wlf
+*.wdb
+*.log
+*.jou
+*.history
+xcelium.d/
+INCA_libs/
+work/
+transcript
+simv
+simv.daidir/
+csrc/
+
+# Synthesis / implementation generated files
+*.enc
+*.db
+*.lib
+*.lef
+*.gds
+*.gdsii
+*.def
+*.spef
+*.sdf
+*.sdc
+*. upf
+*.rpt
+*.report
+*.tmp
+*.temp
+*.bak
+*.logv
+*.svf
+*.drc
+*.lvs
+*.oa
+*.cdslck
+*.lock
+innovus/
+genus/
+virtuoso/
+runs/
+results/
+reports/generated/
+
+# Python-generated output
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Secrets / local configuration
+.env
+.env.*
+*.key
+*.pem
+credentials*
