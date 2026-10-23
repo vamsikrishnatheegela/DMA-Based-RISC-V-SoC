@@ -153,3 +153,10 @@ Please verify complete bibliographic details against the sources actually cited 
 Confirm that all authors and the institution permit public distribution of the paper, slide deck, screenshots, and tool outputs. Do not commit proprietary PDKs, standard-cell libraries, licensed simulation models, credentials, private paths, or restricted Cadence databases.
 
 This README describes the reported architecture and reported values. Consider the project fully reproducible only after the original RTL, testbench, constraints, scripts, and shareable tool reports are added and checked.
+
+
+## Available artifacts and repository status
+
+See [the artifact inventory](docs/AVAILABLE_ARTIFACTS.md) for the figures, conference paper, presentation, and reported implementation results available during preparation.
+
+**Important:** the paper, presentation, and extracted figure binaries have not yet been committed to this GitHub repository. They exist in the working artifact bundle, but this session's GitHub connection does not expose a direct local-file binary upload operation. The original RTL/testbench sources and native Cadence reports were not present in that bundle, so this repository does not claim to contain them. The inventory records the exact figure filenames and reported metrics without misrepresenting missing files as uploaded.
